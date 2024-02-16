@@ -1,6 +1,6 @@
 # React JS Website Documentation
 
-## Introduction
+## EcoRevive
 
 This documentation provides an overview and structure of the React JS website, emphasizing its components and functionality. The website aims to promote sustainability and environmental awareness by providing valuable information, quizzes, and tools related to sustainable development.
 
