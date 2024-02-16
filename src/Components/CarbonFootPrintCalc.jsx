@@ -77,7 +77,7 @@ const CarbonFootPrintCalc = () => {
               type="number"
               id="ebill"
               name="ebill"
-              placeholder="Enter Amount"
+              placeholder="Enter Amount (Yearly Avg)"
               required
             ></input>
           </div>
