@@ -1,0 +1,130 @@
+.quizzical {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quizimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  height: 65vh;
+}
+
+.quizimg h1 {
+  text-align: center;
+  font-family: Inter;
+  font-size: 93px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 166.215px */
+  text-shadow: 6px 12px 6px rgba(0, 0, 0, 0.25);
+  letter-spacing: -4.155px;
+  background: url(./SVGS/textstick.jpg),
+    lightgray -5.792px -59.631px / 100% 225.678% no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.thequiz {
+  width: 50%;
+  height: 69vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./SVGS/quiz-background.svg);
+  border-radius: 27px;
+  flex-direction: column;
+}
+
+.thequiz h1,
+h2 {
+  color: black;
+  font-family: Poppins;
+  font-size: 30.68px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.question-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+
+  gap: 1.5em;
+  border-radius: 20.56px;
+  border: 2.284px solid #fff;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15.22986888885498px);
+  padding: 1em 2.7em;
+}
+
+.question-text {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20.68px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.question-card ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  gap: 1em;
+}
+.question-card ul li {
+  width: 100%;
+
+  list-style: none;
+  border-radius: 16.353px;
+  background: #fff;
+  box-shadow: 3px 6px 9px 0px rgba(0, 0, 0, 0.25);
+  padding: 1em 0.6em;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.question-card ul li:hover {
+  background-color: #7abf18;
+  transform: translate(-10px, 6px);
+}
+
+.final-results {
+  border: 2.284px solid #fff;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15.22986888885498px);
+  border-radius: 27px;
+  padding: 1.5em 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+  flex-direction: column;
+}
+
+.final-results button {
+  background-color: red;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 1em 1em;
+}
