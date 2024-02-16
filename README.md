@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# React JS Website Documentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+This documentation provides an overview and structure of the React JS website, emphasizing its components and functionality. The website aims to promote sustainability and environmental awareness by providing valuable information, quizzes, and tools related to sustainable development.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+1. [Project Structure](#project-structure)
+2. [Components](#components)
+   - [CarbonFootPrintCalc](#carbonfootprintcalc)
+   - [NewsSection](#newssection)
+   - [QikTips](#qiktips)
+   - [TipsSection](#tipssection)
+   - [Quizzical](#quizzical)
+3. [Navigation](#navigation)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Structure <a name="project-structure"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project follows a typical React JS structure, with components housed in the `Components` directory. The main application logic is defined in `App.js`. The use of React Router facilitates navigation throughout the site.
 
-### `npm test`
+## Components <a name="components"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### CarbonFootPrintCalc
 
-### `npm run build`
+The `CarbonFootPrintCalc` component serves as a calculator for estimating carbon footprints. Users can input various parameters, such as vehicle type, distance traveled, electricity bill, and gas bill. The component dynamically calculates the carbon footprint based on user inputs.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### NewsSection
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The `NewsSection` component displays relevant news articles related to sustainability and environmental topics. It provides users with the latest updates on environmental issues, initiatives, and breakthroughs.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### QikTips
 
-### `npm run eject`
+`QikTips` presents quick and actionable tips for individuals to adopt a more sustainable lifestyle. The component offers concise and practical suggestions for eco-friendly living.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### TipsSection
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The `TipsSection` component offers more in-depth tips and information on sustainable living. It provides detailed insights, guidelines, and practices for users interested in making environmentally conscious choices.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Quizzical
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+`Quizzical` is a component that engages users with a series of multiple-choice questions related to sustainable development. Users can test their knowledge on environmental issues and receive immediate feedback on their quiz performance.
 
-## Learn More
+## Navigation <a name="navigation"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The website's navigation is facilitated by React Router and HashLink. Users can smoothly navigate to different sections of the site using the navigation bar at the top. The navigation bar includes links to the Tips section, Quiz section, and the Carbon Footprint Calculator.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The "Explore Now" button encourages users to navigate to the `QikTips` section for quick sustainability tips.
 
-### Code Splitting
+## Conclusion
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This React JS website aims to educate and inspire users to adopt sustainable practices in their daily lives. By providing informative content, quizzes, and interactive tools, the site encourages users to contribute to a healthier and more sustainable environment.
