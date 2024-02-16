@@ -5,6 +5,7 @@ import QikTips from "./Components/QikTips";
 import TipsSection from "./Components/TipsSection";
 import Quizzical from "./Components/Quizzical";
 import "./quizzical.css";
+import Ender from "./Components/Ender";
 
 import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
@@ -65,6 +66,7 @@ function App() {
         <TipsSection />
         <QikTips />
         <Quizzical />
+        <Ender />
       </div>
     </BrowserRouter>
   );

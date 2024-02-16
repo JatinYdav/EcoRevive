@@ -19,7 +19,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 5em;
+  gap: 9em;
 }
 
 .lander {
@@ -490,4 +490,65 @@ nav ul li:hover {
   .card {
     width: 100%;
   }
+}
+
+.endsection {
+  height: 55vh;
+  width: 100%;
+  background: url(./SVGS/footerimg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 87%;
+}
+
+.endinfo {
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.endinfo h1 {
+  text-align: left;
+  width: 60%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.socialicons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+  padding-left: 1em;
+}
+
+.endinfo ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.endinfo ul li {
+  color: black;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 90%;
+}
+
+.endinfo ul li {
+  list-style: none;
 }

@@ -32,13 +32,15 @@
 
 .thequiz {
   width: 50%;
-  height: 69vh;
+  height: 75vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background: url(./SVGS/quiz-background.svg);
   border-radius: 27px;
   flex-direction: column;
+  margin-right: 2.7em;
+  box-shadow: 6px 12px 9px 0px rgba(0, 0, 0, 0.25);
 }
 
 .thequiz h1,
